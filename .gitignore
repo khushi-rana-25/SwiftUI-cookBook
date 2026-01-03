@@ -60,3 +60,27 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# --- CUSTOM IRRITANTS ---
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode Internal State (The "vines")
+# This prevents Xcode from tracking your cursor position and open files
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+DerivedData/
+*.swp
+*.lock
+
+# Build Folders
+build/
+*.build
