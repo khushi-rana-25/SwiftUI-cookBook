@@ -1,0 +1,15 @@
+{
+  "originHash" : "b27a32fab17d5c9c5cc0aa8baf4ecfc088e2cd2fa16cb77ff559ae5d8d44b753",
+  "pins" : [
+    {
+      "identity" : "dominantcolors",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DenDmitriev/DominantColors",
+      "state" : {
+        "revision" : "a05327d36092c47e9ddc77ce565eb35a5b4a4a6e",
+        "version" : "1.2.2"
+      }
+    }
+  ],
+  "version" : 3
+}
