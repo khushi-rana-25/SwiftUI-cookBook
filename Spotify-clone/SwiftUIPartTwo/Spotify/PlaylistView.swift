@@ -78,7 +78,10 @@ struct PlaylistView: View {
         
         HStack(alignment: .center){
             Button {
-                guard let currentId = spotifyManager.currentSongID else { spotifyManager.setupPlayer(songs[0])
+                guard let currentId = spotifyManager.currentSongID else {
+                    if !songs.isEmpty {
+                        spotifyManager.setupPlayer(songs[0])
+                    }
                     return
                 }
                 

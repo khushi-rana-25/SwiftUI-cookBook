@@ -13,6 +13,7 @@ import SwiftUI
 enum RepeatMode {
     case off, all, one
 }
+
 @Observable
 class SpotifyManager: NSObject, AVAudioPlayerDelegate {
     
